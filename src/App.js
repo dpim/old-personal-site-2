@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Menu, Description } from './components';
 import { Descriptions } from './descriptions'
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Link, Route, Redirect } from 'react-router-dom'
 const pages = ["hello", "projects", "contact"];
 
 class App extends Component {
@@ -17,9 +16,12 @@ class App extends Component {
               <Menu pages={pages}/>
             </div>
             <div className="Main">
-              <Route path={"/hello"} render={()=><Description text={Descriptions["hello"]}/>}/>
-              <Route path={"/projects"} render={()=><Description text={Descriptions["projects"]}/>}/>
-              <Route path={"/contact"} render={()=><Description text={Descriptions["contact"]}/>}/>
+              <Route exact path="/" render={() => (
+                  <Redirect to="/hello"/>
+              )}/>
+              <Route exact path={"/hello"} render={()=><Description text={Descriptions["hello"]}/>}/>
+              <Route exact path={"/projects"} render={()=><Description text={Descriptions["projects"]}/>}/>
+              <Route exact path={"/contact"} render={()=><Description text={Descriptions["contact"]}/>}/>
             </div>
             </div>
         </Router>

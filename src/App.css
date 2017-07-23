@@ -26,7 +26,6 @@
 
 .Main {
     padding: 10px;
-    height: 500px;
 }
 
 .App-intro {
@@ -49,6 +48,16 @@ h2 {
 img {
   height: 200px;
 
+}
+
+ul { 
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 
 @media only screen and (max-width: 500px) {
