@@ -1,0 +1,61 @@
+.App {
+  text-align: left;
+  width: 500px;
+  margin-left: 0px;
+  margin-right: auto;
+  font-family: Monaco, Menlo, Consolas, monospace;
+  font-weight: 200;
+  font-size: small;
+}
+
+.Header {
+  background-color: #1d4e89;
+  height: 10%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+.MenuLink {
+  color: white;
+}
+
+.Main>a:visited, .Main>a {
+  color: grey;
+}
+
+.Main {
+    padding: 10px;
+    height: 500px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-screenshot {
+  height: 348px;
+  padding: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+h2 {
+  font-stretch: condensed;
+}
+
+img {
+  height: 200px;
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lavender;
+    }
+    .App {
+      width: 100%;
+    }
+}
