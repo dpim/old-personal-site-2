@@ -26,7 +26,7 @@ export let Descriptions = {
     <li> Built a backend in Node.js for proxying service-to-service queries to Seattle Open Data SoQL APIs, aggregating relevant data and resolving locations in a variety of formats </li> \
     <li> <a href='http://206neigh.azurewebsites.net/'>See it live</a></li> \
     <li> <a href='https://github.com/dpim/206'>Fork me on GitHub</a></li></ul> \
-    <h4> Bottle (November 2013 - November 2013) </h4> <img class='App-screenshot' src='./public/img/capture.png' /> \
+    <h4> Bottle (November 2013 - November 2014) </h4> <img class='App-screenshot' src='./public/img/capture.png' /> \
     <img class='App-screenshot' src='./public/img/feed.png' /> \
     <ul><li> Designed, developed and shipped iOS app for sharing pictures with people around you (like Snapchat for places) </li> \
     <li> Built out image submission flow, local image feed, direct messaging among other experiences </li> \
