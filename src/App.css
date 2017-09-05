@@ -62,7 +62,7 @@ ul {
 
 @media only screen and (max-width: 500px) {
     body {
-        background-color: lavender;
+        background-color: lightcyan;
     }
     .App {
       width: 100%;
