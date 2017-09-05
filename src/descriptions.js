@@ -1,11 +1,10 @@
 export let Descriptions = {
     "hello": "<img src='https://pbs.twimg.com/profile_images/862479194160218112/nbsI3nma_400x400.jpg' alt='photo of Dmitry' /> <h3>Summary</h3> \
-    I like building things that unlock new possibilites for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end. \
+    I like building things that unlock new possibilities for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end. \
     <h3>Work experience</h3>\
     <h4>Program Manager II, Microsoft (August 2017 - Present)</h4>\
-    <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>, <a href='https://dev.office.com/'>Office Extensibility</a>\
+    <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
-    <li>Drove internal/external developer experience (process for changes, documentation, API design) for productivity application</li>\
     </ul>\
     <h4>Program Manager, Microsoft (June 2015 - August 2017)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>, <a href='https://dev.office.com/'>Office Extensibility</a>\

@@ -37,8 +37,8 @@
   padding: 10px;
 }
 
-a, a:visited {
-  text-decoration: none;
+.Main a, a:visited {
+  text-decoration: underline;
 }
 
 h2 {
