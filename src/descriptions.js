@@ -15,7 +15,25 @@ export let Descriptions = {
     <li>Built card-based Notification Center widget for displaying local points of interest</li><li>Constructed and presented sample app to demo SDK functionality</li><li> Developed more immersive landscape video search mode for iPad</li></ul>\
     <h3>Education</h3>\
     <h4>Bachelor of Science, Applied and Computational Math Sciences, University of Washington (June 2012 - June 2015)</h4>",
-    "projects": "<h4> Grassroots - Local Political Discussion (March 2017 - Present) </h4> \
+
+    "projects": " \
+    <h4> GraphQL for MSGraph (July 2017)</h4> \
+    <img class='App-screenshot' src='./public/img/gql.gif' /> \
+    <ul> \
+    <li> Developed novel means of generating GraphQL service from OData service description </li> \
+    <li> Implemented translation of structural and behavioral patterns from GraphQL to OData (collection mechanics, type annotation, entity inheritance) </li> \
+    <li> <a href='http://msgraphql-demo.azurewebsites.net/'>See it live</a></li> \
+    <li> <a href='https://github.com/microsoftgraph/graphql-demo'>Fork me on GitHub</a></li></ul> \
+    </ul> \
+    <h4> 4EJ - Google Maps for infographics (July 2017 - present)</h4> \
+    <img class='App-screenshot' src='./public/img/4ej.png' /> \
+    <ul> \
+    <li>Designed, built and shipped web app & service for sharing and exploring longform content (documents, infographics, etc)</li> \
+    <li>Developed mechanisms for clustering related information</li> \
+    <li>Built using React, Node.js and MongoDB</li> \
+    <li> <a href='https://4ej.co/'>Explore in 4EJ</a></li> \
+    </ul> \
+    <h4> Grassroots - Local Political Discussion (March 2017 - Present) </h4> \
     <img class='App-screenshot' src='http://a2.mzstatic.com/us/r30/Purple118/v4/50/17/08/501708c9-cd8d-94f0-dc2d-621edae611e5/screen696x696.jpeg' /><img class='App-screenshot' src='http://a3.mzstatic.com/us/r30/Purple128/v4/f8/da/9f/f8da9fa0-54be-c577-9782-21f111ec1402/screen696x696.jpeg' /> \
     <ul><li> Designed, built and shipped an iOS app for enabling political discussion among people who share a common congressional district </li> \
     <li> App built natively using Swift 3, backend built using Node.js/Express, MySQL and Redis</li> \
@@ -36,8 +54,12 @@ export let Descriptions = {
     <ul><li> Designed, developed and shipped iOS app for sharing pictures with people around you (like Snapchat for places) </li> \
     <li> Built out image submission flow, local image feed, direct messaging among other experiences </li> \
     <li> Worked with multiple web APIs, MapKit, background uploading, asynchronous content loading </li> \
-    <li> Orchestrated targeted marketing, development of product identity and branding </li> </ul> ",
-    "contact": "<img src='https://pbs.twimg.com/profile_images/862479194160218112/nbsI3nma_400x400.jpg' alt='photo of Dmitry' /> <h3>Profiles</h3> \
+    <li> Orchestrated targeted marketing, development of product identity and branding </li>  \
+    </ul> ",
+
+    "contact": " \
+    <img src='https://pbs.twimg.com/profile_images/862479194160218112/nbsI3nma_400x400.jpg' alt='photo of Dmitry' /> \
+    <h3>Profiles</h3> \
     <ul><li><a href='https://www.linkedin.com/in/dmitryspimenov/'>LinkedIn</a></li> \
     <li><a href='https://www.twitter.com/dpim'>Twitter</a></li>\
     <li><a href='https://www.github.com/dpim'>GitHub</a></li></ul>"
