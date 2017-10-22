@@ -14,13 +14,14 @@ export let Descriptions = {
     <li>Validated end-user and developer-facing designs with user feedback and studies</li></ul><h4>Software Engineering Intern, Yahoo (June 2014 - September 2014)<a href='https://github.com/yahoo/searchsdk-ios'></h4>Yahoo Search for iOS </a><ul>\
     <li>Built card-based Notification Center widget for displaying local points of interest</li><li>Constructed and presented sample app to demo SDK functionality</li><li> Developed more immersive landscape video search mode for iPad</li></ul>\
     <h3>Education</h3>\
-    <h4>Bachelor of Science, Applied and Computational Math Sciences, University of Washington (June 2012 - June 2015)</h4> \
+    <h4>BS, Applied and Computational Math Sciences, UW (June 2012 - June 2015)</h4> \
+    <a href='https://acms.washington.edu/'>ACMS at the University of Washington</a> \
     <ul><li>Concentration in discrete math and algorithms</li>\
     <li>Dean's List</li></ul>",
 
     "projects": " \
     <h4> GraphQL for MSGraph (July 2017)</h4> \
-    <img class='App-screenshot' src='./public/img/gql.gif' /> \
+    <img class='App-screenshot' src='./public/img/gql1.gif' /> \
     <ul> \
     <li> Developed novel means of generating GraphQL service from OData service description </li> \
     <li> Implemented translation of structural and behavioral patterns from GraphQL to OData (collection mechanics, type annotation, entity inheritance) </li> \
@@ -28,7 +29,7 @@ export let Descriptions = {
     <li> <a href='https://github.com/microsoftgraph/graphql-demo'>Fork me on GitHub</a></li></ul> \
     </ul> \
     <h4> 4EJ - Google Maps for infographics (July 2017 - present)</h4> \
-    <img class='App-screenshot' src='./public/img/4ej.png' /> \
+    <img class='App-screenshot' src='./public/img/4ej1.png' /> \
     <ul> \
     <li>Designed, built and shipped web app & service for sharing and exploring longform content (documents, infographics, etc)</li> \
     <li>Developed mechanisms for clustering related information</li> \
@@ -51,12 +52,12 @@ export let Descriptions = {
     <li> Built a backend in Node.js for proxying service-to-service queries to Seattle Open Data SoQL APIs, aggregating relevant data and resolving locations in a variety of formats </li> \
     <li> <a href='http://206neigh.azurewebsites.net/'>See it live</a></li> \
     <li> <a href='https://github.com/dpim/206'>Fork me on GitHub</a></li></ul> \
-    <h4> Wedge Analytics (September 2014 - February 2015) </h4> <img class='App-screenshot' src='./public/img/wedge.png' /> \
+    <h4> Wedge Analytics (September 2014 - February 2015) </h4> <img class='App-screenshot' src='./public/img/wedge1.png' /> \
     <ul><li> Built a proof-of-concept analytics framework for tracking deep link schemes on device </li> \
     <li> <a href='https://www.youtube.com/watch?v=1INVQXbdoZI'>See it in action</a></li> \
     </ul> \
-    <h4> Bottle (November 2013 - November 2014) </h4> <img class='App-screenshot' src='./public/img/capture.png' /> \
-    <img class='App-screenshot' src='./public/img/feed.png' /> \
+    <h4> Bottle (November 2013 - November 2014) </h4> <img class='App-screenshot' src='./public/img/bottle1.png' /> \
+    <img class='App-screenshot' src='./public/img/bottle2.png' /> \
     <ul><li> Designed, developed and shipped iOS app for sharing pictures with people around you (like Snapchat for places) </li> \
     <li> Built out image submission flow, local image feed, direct messaging among other experiences </li> \
     <li> Worked with multiple web APIs, MapKit, background uploading, asynchronous content loading </li> \
