@@ -24,7 +24,7 @@ export let Descriptions = {
     <ul> \
     <li> Developed novel means of generating GraphQL service from OData service description </li> \
     <li> Implemented translation of structural and behavioral patterns from GraphQL to OData (collection mechanics, type annotation, entity inheritance) </li> \
-    <li> <a href='http://msgraphql-demo.azurewebsites.net/'>See it live</a></li> \
+    <li> <a href='http://graphql-demo.azurewebsites.net/'>See it live</a></li> \
     <li> <a href='https://github.com/microsoftgraph/graphql-demo'>Fork me on GitHub</a></li></ul> \
     </ul> \
     <h4> 4EJ - Google Maps for infographics (July 2017 - present)</h4> \
