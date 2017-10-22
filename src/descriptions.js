@@ -14,7 +14,9 @@ export let Descriptions = {
     <li>Validated end-user and developer-facing designs with user feedback and studies</li></ul><h4>Software Engineering Intern, Yahoo (June 2014 - September 2014)<a href='https://github.com/yahoo/searchsdk-ios'></h4>Yahoo Search for iOS </a><ul>\
     <li>Built card-based Notification Center widget for displaying local points of interest</li><li>Constructed and presented sample app to demo SDK functionality</li><li> Developed more immersive landscape video search mode for iPad</li></ul>\
     <h3>Education</h3>\
-    <h4>Bachelor of Science, Applied and Computational Math Sciences, University of Washington (June 2012 - June 2015)</h4>",
+    <h4>Bachelor of Science, Applied and Computational Math Sciences, University of Washington (June 2012 - June 2015)</h4> \
+    <ul><li>Concentration in discrete math and algorithms</li>\
+    <li>Dean's List</li></ul>",
 
     "projects": " \
     <h4> GraphQL for MSGraph (July 2017)</h4> \
@@ -49,12 +51,22 @@ export let Descriptions = {
     <li> Built a backend in Node.js for proxying service-to-service queries to Seattle Open Data SoQL APIs, aggregating relevant data and resolving locations in a variety of formats </li> \
     <li> <a href='http://206neigh.azurewebsites.net/'>See it live</a></li> \
     <li> <a href='https://github.com/dpim/206'>Fork me on GitHub</a></li></ul> \
+    <h4> Wedge Analytics (September 2014 - February 2015) </h4> <img class='App-screenshot' src='./public/img/wedge.png' /> \
+    <ul><li> Built a proof-of-concept analytics framework for tracking deep link schemes on device </li> \
+    <li> <a href='https://www.youtube.com/watch?v=1INVQXbdoZI'>See it in action</a></li> \
+    </ul> \
     <h4> Bottle (November 2013 - November 2014) </h4> <img class='App-screenshot' src='./public/img/capture.png' /> \
     <img class='App-screenshot' src='./public/img/feed.png' /> \
     <ul><li> Designed, developed and shipped iOS app for sharing pictures with people around you (like Snapchat for places) </li> \
     <li> Built out image submission flow, local image feed, direct messaging among other experiences </li> \
     <li> Worked with multiple web APIs, MapKit, background uploading, asynchronous content loading </li> \
     <li> Orchestrated targeted marketing, development of product identity and branding </li>  \
+    <li> Ranked in the Top 500 Photography apps in Switzerland </li>  \
+    </ul> \
+    <h4> Helio (June 2013 - August 2013) </h4> <img class='App-screenshot' src='./public/img/helio1.png' /> \
+    <img class='App-screenshot' src='./public/img/helio2.png' /> \
+    <ul><li> Shipped an iOS app for passive sleep tracking </li> \
+    <li> Developed algorithm for adjusting alarm time based on user feedback </li> \
     </ul> ",
 
     "contact": " \
