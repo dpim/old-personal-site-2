@@ -1,26 +1,37 @@
 .App {
   text-align: left;
-  width: 600px;
+  width: 60%;
   margin-left: 0px;
   margin-right: auto;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-wrap: break-word;
+  margin-left: 20%;
+  padding-bottom: 20px;
 }
 
 .Header {
-  background-color: #1d4e89;
   height: 10%;
   padding: 10px;
-  color: white;
+  color: black;
   text-align: left;
 }
 
 .MenuLink {
-  color: white;
-  margin-right: 10px;
-  text-transform: lowercase;
+  color: black;
+  font-weight: 600;  
+  font-size: 17px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.MenuLink:hover {
+  transition: color .2s ease-in;
+  -moz-transition:color .2s ease-in;
+  -o-transition:color .2s ease-in;
+  -webkit-transition:color .2 s ease-in;
+  color: slateblue;
 }
 
 .Main>a:visited, .Main>a {
@@ -46,13 +57,29 @@
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 21px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 10px;  
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-transform: uppercase;
+
+  background: linear-gradient(148deg, #000000, #044196, #ffb967);
+  background-size: 600% 600%;
+  
+  -webkit-animation: gradanimate 48s ease infinite;
+  -moz-animation: gradanimate 48s ease infinite;
+  animation: gradanimate 48s ease infinite;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 img {
   height: 200px;
-
 }
 
 ul { 
@@ -65,11 +92,35 @@ ul {
     padding-left: 40px;
 }
 
+li {
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 1.5em;  
+}
+
 @media only screen and (max-width: 500px) {
     body {
-        background-color: #F0F0F0;
+        background-color: #F0F0F0; 
     }
     .App {
       width: 100%;
     }
+}
+
+@-webkit-keyframes gradanimate {
+  0%{background-position:1% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:1% 0%}
+}
+@-moz-keyframes gradanimate {
+  0%{background-position:1% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:1% 0%}
+}
+@keyframes gradanimate { 
+  0%{background-position:1% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:1% 0%}
 }

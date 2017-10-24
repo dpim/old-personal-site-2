@@ -1,7 +1,7 @@
 export let Descriptions = {
-    "hello": "<img src='https://pbs.twimg.com/profile_images/862479194160218112/nbsI3nma_400x400.jpg' alt='photo of Dmitry' /> <h3>Summary</h3> \
-    I like building things that unlock new possibilities for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end. \
-    <h3>Work experience</h3>\
+    "hello": "<img src='./public/img/me.jpg' alt='photo of Dmitry' /> <h3>About me</h3> \
+    <p>I enjoy building things that unlock new possibilities for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end.</p> \
+    <h3>Work Experience</h3>\
     <h4>Program Manager II, Microsoft (August 2017 - Present)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
@@ -14,12 +14,12 @@ export let Descriptions = {
     <li>Validated end-user and developer-facing designs with user feedback and studies</li></ul><h4>Software Engineering Intern, Yahoo (June 2014 - September 2014)<a href='https://github.com/yahoo/searchsdk-ios'></h4>Yahoo Search for iOS </a><ul>\
     <li>Built card-based Notification Center widget for displaying local points of interest</li><li>Constructed and presented sample app to demo SDK functionality</li><li> Developed more immersive landscape video search mode for iPad</li></ul>\
     <h3>Education</h3>\
-    <h4>BS, Applied and Computational Math Sciences, UW (June 2012 - June 2015)</h4> \
+    <h4>BS, Applied and Computational Math Sciences, University of Washington (June 2012 - June 2015)</h4> \
     <a href='https://acms.washington.edu/'>ACMS at the University of Washington</a> \
     <ul><li>Concentration in discrete math and algorithms</li>\
     <li>Dean's List</li></ul>",
 
-    "projects": " \
+    "projects": "<h3>What I've built</h3> \
     <h4> GraphQL for MSGraph (July 2017)</h4> \
     <img class='App-screenshot' src='./public/img/gql1.gif' /> \
     <ul> \
@@ -71,8 +71,8 @@ export let Descriptions = {
     </ul> ",
 
     "contact": " \
-    <img src='https://pbs.twimg.com/profile_images/862479194160218112/nbsI3nma_400x400.jpg' alt='photo of Dmitry' /> \
-    <h3>Profiles</h3> \
+    <img src='./public/img/me.jpg' alt='photo of Dmitry' /> \
+    <h3>How to reach me</h3> \
     <ul><li><a href='https://www.linkedin.com/in/dmitryspimenov/'>LinkedIn</a></li> \
     <li><a href='https://www.twitter.com/dpim'>Twitter</a></li>\
     <li><a href='https://www.github.com/dpim'>GitHub</a></li></ul>"
