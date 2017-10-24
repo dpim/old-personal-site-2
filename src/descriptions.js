@@ -2,7 +2,7 @@ export let Descriptions = {
     "hello": "<img src='./public/img/me.jpg' alt='photo of Dmitry' /> <h3>About me</h3> \
     <p>I enjoy building things that unlock new possibilities for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end.</p> \
     <h3>Work Experience</h3>\
-    <h4>Program Manager II, Microsoft (August 2017 - Present)</h4>\
+    <h4>Program Manager II, Microsoft (August 2017 - present)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
     </ul>\
@@ -20,7 +20,7 @@ export let Descriptions = {
     <li>Dean's List</li></ul>",
 
     "projects": "<h3>What I've built</h3> \
-    <h4> GraphQL for MSGraph (July 2017)</h4> \
+    <h4> GraphQL for Microsoft Graph (July 2017)</h4> \
     <img class='App-screenshot' src='./public/img/gql1.gif' /> \
     <ul> \
     <li> Developed novel means of generating GraphQL service from OData service description </li> \
@@ -36,12 +36,12 @@ export let Descriptions = {
     <li>Built using React, Node.js and MongoDB</li> \
     <li> <a href='https://4ej.co/'>Explore in 4EJ</a></li> \
     </ul> \
-    <h4> Grassroots - Local Political Discussion (March 2017 - Present) </h4> \
+    <h4> Grassroots - Local Political Discussion (March 2017 - present) </h4> \
     <img class='App-screenshot' src='http://a2.mzstatic.com/us/r30/Purple118/v4/50/17/08/501708c9-cd8d-94f0-dc2d-621edae611e5/screen696x696.jpeg' /><img class='App-screenshot' src='http://a3.mzstatic.com/us/r30/Purple128/v4/f8/da/9f/f8da9fa0-54be-c577-9782-21f111ec1402/screen696x696.jpeg' /> \
     <ul><li> Designed, built and shipped an iOS app for enabling political discussion among people who share a common congressional district </li> \
     <li> App built natively using Swift 3, backend built using Node.js/Express, MySQL and Redis</li> \
     <li> <a href='https://itunes.apple.com/us/app/grassroots-local-political-discussion/id1257472526?ls=1&mt=8'> Available on the App Store</a></li></ul> \
-    <h4> Cardiyo - Social Run Tracking (December 2016 - Present) </h4> \
+    <h4> Cardiyo - Social Run Tracking (December 2016 - present) </h4> \
     <img class='App-screenshot' src='http://a2.mzstatic.com/us/r30/Purple111/v4/63/c5/4c/63c54c49-cc13-ce0d-6e32-6809b805206b/screen696x696.jpeg' /><img class='App-screenshot' src='http://a2.mzstatic.com/us/r30/Purple111/v4/c6/8f/55/c68f55fa-7362-b174-d10b-96e9634255cf/screen696x696.jpeg' /> \
     <ul><li> Designed, built and shipped a social run tracking app that allows users to share running experiences (courses, photos, captions) vs just stats </li> \
     <li> Wrote iOS app in Swift 3, backend using Node.js/Express, MySQL</li> \
