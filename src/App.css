@@ -54,6 +54,7 @@
 
 .Main a, a:visited {
   text-decoration: underline;
+  line-height: 1.5em;  
 }
 
 h2 {
