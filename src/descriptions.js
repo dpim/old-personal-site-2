@@ -24,7 +24,7 @@ export let Descriptions = {
     <img class='App-screenshot' src='./public/img/gql1.gif' /> \
     <ul> \
     <li> Developed novel means of generating GraphQL service from OData service description </li> \
-    <li> Implemented translation of structural and behavioral patterns from GraphQL to OData (collection mechanics, type annotation, entity inheritance) </li> \
+    <li> Implemented translation of structural and behavioral patterns from OData to GraphQL (collection mechanics, type annotation, entity inheritance) </li> \
     <li> <a href='http://graphql-demo.azurewebsites.net/'>See it live</a></li> \
     <li> <a href='https://github.com/microsoftgraph/graphql-demo'>Fork me on GitHub</a></li></ul> \
     </ul> \
