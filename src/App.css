@@ -1,12 +1,13 @@
 .App {
   text-align: left;
-  width: 60%;
+  width: 50%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-wrap: break-word;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
   padding-bottom: 20px;
   background: #F0F0F0;
   -webkit-font-smoothing: antialiased;
@@ -59,7 +60,7 @@
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   padding: 10px;  
@@ -104,12 +105,12 @@ p {
   line-height: 1.5em;  
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     body {
         background-color: #F0F0F0; 
     }
     .App {
-        width: 100%;
+        width: 95%;
     }
 }
 
