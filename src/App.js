@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
        <Router>
-         <div>
+         <div className="ContentSection">
            <div className="Header">
               <h2>Dmitry Pimenov</h2>
               <Menu pages={pages}/>

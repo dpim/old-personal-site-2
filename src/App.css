@@ -60,7 +60,7 @@
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 50px;
   line-height: 50px;
   padding: 10px;  
@@ -70,7 +70,6 @@ h2 {
   margin-left: 0px;
   margin-right: 0px;
   text-transform: uppercase;
-
   background: linear-gradient(148deg, #000000, #044196, #ffb967);
   background-size: 600% 600%;
   
