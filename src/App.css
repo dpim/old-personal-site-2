@@ -33,7 +33,7 @@
   -moz-transition:color .2s ease-in;
   -o-transition:color .2s ease-in;
   -webkit-transition:color .2 s ease-in;
-  color: slateblue;
+  color: grey;
 }
 
 .Main>a:visited, .Main>a {
@@ -61,7 +61,7 @@
 
 h2 {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 32px;
   line-height: 50px;
   padding: 10px;  
   color: white;
@@ -72,7 +72,6 @@ h2 {
   text-transform: uppercase;
   background: linear-gradient(148deg, #000000, #044196, #ffb967);
   background-size: 600% 600%;
-  
   -webkit-animation: gradanimate 48s ease infinite;
   -moz-animation: gradanimate 48s ease infinite;
   animation: gradanimate 48s ease infinite;

@@ -20,7 +20,7 @@ export let Descriptions = {
     <li>Dean's List</li></ul>",
 
     "projects": "<h3>What I've built</h3> \
-    <h4> GraphQL for Microsoft Graph (July 2017)</h4> \
+    <h4> GraphQL for Microsoft Graph (July 2017 - present)</h4> \
     <img class='App-screenshot' src='./public/img/gql1.gif' /> \
     <ul> \
     <li> Developed novel means of generating GraphQL service from OData service description </li> \
@@ -75,7 +75,8 @@ export let Descriptions = {
     <h3>How to reach me</h3> \
     <ul><li><a href='https://www.linkedin.com/in/dmitryspimenov/'>LinkedIn</a></li> \
     <li><a href='https://www.twitter.com/dpim'>Twitter</a></li>\
-    <li><a href='https://www.github.com/dpim'>GitHub</a></li></ul>"
+    <li><a href='https://www.github.com/dpim'>GitHub</a></li>\
+    <li><a href='https://stackoverflow.com/users/8934271/dmitry-pimenov'>StackOverflow</a></li></ul>"
 }
 
 
