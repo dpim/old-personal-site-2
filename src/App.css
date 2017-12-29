@@ -1,15 +1,16 @@
 .App {
   text-align: left;
-  width: 50%;
+  width: 65%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-wrap: break-word;
-  margin-left: 10px;
+  margin-left: 17.5%;
   margin-top: 10px;
-  margin-right: 10px;
+  margin-right: 17.5%;
   padding-bottom: 20px;
   background: #F0F0F0;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
