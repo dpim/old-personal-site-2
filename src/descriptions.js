@@ -1,8 +1,11 @@
 export let Descriptions = {
-    "hello": "<img src='./public/img/me.jpg' alt='photo of Dmitry' /> <h3>About me</h3> \
-    <p>I enjoy building things that unlock new possibilities for others. This can take many shapes -- from enabling developers to build solutions more efficiently, to connecting people that wouldn't otherwise meet via an iPhone app. At the intersection of engineering and product, I have a holistic understanding of the development process and experience shipping end-to-end.</p> \
+    "hello": "<h3>About me</h3>\
+    <img class='Profile' src='./public/img/finland.jpg' alt='photo of Dmitry' /> \
+    <p>I enjoy crafting experiences that unlock new possibilities for others. At the intersection of product and engineering, I'm experienced at defining and scaling developer platforms. In my spare time, I build apps and tools that address interesting problems.</p> \
+    <hr />\
     <h3>Professional experience</h3>\
-    <h4>Program Manager II, Microsoft (August 2017 - present)</h4>\
+    <h4>Product Manager, Twilio (March 2018  - present)</h4>\
+    <h4>Program Manager II, Microsoft (August 2017 - March 2018)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
     </ul>\
@@ -71,8 +74,8 @@ export let Descriptions = {
     </ul> ",
 
     "contact": " \
-    <img src='./public/img/me.jpg' alt='photo of Dmitry' /> \
     <h3>How to reach me</h3> \
+    <img class='Profile' src='./public/img/finland.jpg' alt='photo of Dmitry' /> \
     <ul><li><a href='https://www.linkedin.com/in/dmitryspimenov/'>LinkedIn</a></li> \
     <li><a href='https://www.twitter.com/dpim'>Twitter</a></li>\
     <li><a href='https://www.github.com/dpim'>GitHub</a></li>\
