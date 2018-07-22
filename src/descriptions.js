@@ -8,7 +8,7 @@ export let Descriptions = {
     <h4>Program Manager II, Microsoft (August 2017 - March 2018)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul>\
-    <li>Defining Microsoft Graph SDK strategy and execution plan</li>\
+    <li>Defined Microsoft Graph SDK strategy and execution plan</li>\
     <li>Coordinated across teams to provide consistent, up-to-date client libraries across broad range of platforms</li>\
     <li>Drove platform prioritization and infrastructure efforts that significantly increased shipping cadence </li>\
     <li>Evangelized Microsoft Graph's developer experience at numerous conferences and events. Established recurring community call for demonstrating new functionality and highlighting community contributions</li>\
@@ -17,7 +17,7 @@ export let Descriptions = {
     </ul>\
     <h4>Program Manager, Microsoft (June 2015 - August 2017)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>, <a href='https://dev.office.com/'>Office Extensibility</a>\
-    <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
+    <ul>\
     <li>Drove internal/external developer experience (process for changes, documentation, API design) for productivity application</li>\
     <li>Piloted data-driven approach to diagnosing client-server reliability issues, involving extensive use of novel telemetry</li>\
     <li>Validated end-user and developer-facing designs with user feedback and studies</li></ul><h4>Software Engineering Intern, Yahoo (June 2014 - September 2014)<a href='https://github.com/yahoo/searchsdk-ios'></h4>Yahoo Search for iOS </a><ul>\
