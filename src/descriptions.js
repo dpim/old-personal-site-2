@@ -1,13 +1,19 @@
 export let Descriptions = {
     "hello": "<h3>About me</h3>\
     <img class='Profile' src='./public/img/finland.jpg' alt='photo of Dmitry' /> \
-    <p>I enjoy crafting experiences that unlock new possibilities for others. At the intersection of product and engineering, I'm experienced at defining and scaling developer platforms. In my spare time, I build apps and tools that address interesting problems.</p> \
+    <p>I enjoy crafting experiences that unlock new possibilities for others. At the intersection of product and engineering, I'm experienced at defining and scaling developer platforms. In my spare time, I build apps that address interesting problems.</p> \
     <hr />\
     <h3>Professional experience</h3>\
-    <h4>Product Manager, Twilio (March 2018  - present)</h4>\
+    <h4>Product Manager, Facebook (July 2018  - present)</h4>\
     <h4>Program Manager II, Microsoft (August 2017 - March 2018)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
-    <ul><li>Defining Microsoft Graph SDK strategy and execution plan. Coordinating across teams and organizations to provide consistent, up-to-date client libraries across broad range of platforms.</li>\
+    <ul>\
+    <li>Defining Microsoft Graph SDK strategy and execution plan</li>\
+    <li>Coordinated across teams to provide consistent, up-to-date client libraries across broad range of platforms</li>\
+    <li>Drove platform prioritization and infrastructure efforts that significantly increased shipping cadence </li>\
+    <li>Evangelized Microsoft Graph's developer experience at numerous conferences and events. Established recurring community call for demonstrating new functionality and highlighting community contributions</li>\
+    <li>Served an advisory role for new Office REST APIs</li>\
+    <li>Prototyped a tool for generating GraphQL front-ends atop existing OData services. Demo tooling has seen 10,000s of queries issued</li>\
     </ul>\
     <h4>Program Manager, Microsoft (June 2015 - August 2017)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>, <a href='https://dev.office.com/'>Office Extensibility</a>\
