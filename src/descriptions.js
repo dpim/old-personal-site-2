@@ -11,7 +11,8 @@ export let Descriptions = {
     <li>Defined Microsoft Graph SDK strategy and execution plan</li>\
     <li>Coordinated across teams to provide consistent, up-to-date client libraries across broad range of platforms</li>\
     <li>Drove platform prioritization and infrastructure efforts that significantly increased shipping cadence </li>\
-    <li>Evangelized Microsoft Graph's developer experience at numerous conferences and events. Established recurring community call for demonstrating new functionality and highlighting community contributions</li>\
+    <li>Evangelized Microsoft Graph's developer experience at numerous conferences and events. </li>\
+    <li>Established recurring community call for demonstrating new functionality and highlighting community contributions</li>\
     <li>Served an advisory role for new Office REST APIs</li>\
     <li>Prototyped a tool for generating GraphQL front-ends atop existing OData services. Demo tooling has seen 10,000s of queries issued</li>\
     </ul>\
