@@ -6,7 +6,7 @@ export let Descriptions = {
     In my spare time, I travel, read and tinker on new apps.</p> \
     <hr />\
     <h3>Professional experience</h3>\
-    <h4>Product Manager, Facebook (July 2018  - present)</h4>\
+    <h4>Product Manager, Facebook (July 2018  - present)</h4>\  
     <h4>Program Manager II, Microsoft (August 2017 - March 2018)</h4>\
     <a href='https://developer.microsoft.com/en-us/graph/code-samples-and-sdks'>Microsoft Graph</a>\
     <ul>\
