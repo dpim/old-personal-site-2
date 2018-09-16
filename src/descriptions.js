@@ -1,7 +1,9 @@
 export let Descriptions = {
     "hello": "<h3>About me</h3>\
     <img class='Profile' src='./public/img/finland.jpg' alt='photo of Dmitry' /> \
-    <p>I enjoy crafting experiences that unlock new possibilities for others. At the intersection of product and engineering, I'm experienced at defining and scaling developer platforms. In my spare time, I build apps that address interesting problems.</p> \
+    <p>I'm a product person that enjoys crafting experiences that unlock new possibilities for others. \
+    Specifically, I'm drawn to developer strategy and scaling platforms. \
+    In my spare time, I travel, read and tinker on new apps.</p> \
     <hr />\
     <h3>Professional experience</h3>\
     <h4>Product Manager, Facebook (July 2018  - present)</h4>\
