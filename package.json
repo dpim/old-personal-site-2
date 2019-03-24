@@ -14,27 +14,28 @@
   "author": "/",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.5.8",
+    "html-react-parser": "^0.6.3",
+    "prop-types": "^15.7.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-interactive": "^0.6.5",
-    "react-router-dom": "^4.1.1",
+    "react-router-dom": "^4.3.1",
     "style-loader": "^0.18.2"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.4.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "css-loader": "^0.28.4",
+    "css-loader": "^0.28.11",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.11.5"
   }
 }
