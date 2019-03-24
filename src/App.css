@@ -104,7 +104,7 @@ hr {
 
 .ProExperience {
   display: block;
-  border-right: dashed black 2px;
+  border-right: dashed lightgrey 2px;
   padding-right: 12px;
   padding-bottom: 12px;
 }
@@ -114,8 +114,25 @@ hr {
   margin-right: -14px;
   padding-right: 10px;
   padding-bottom: 10px;
-  border-right: solid lightblue 2px;
+  border-right: solid darkgrey 2px;
 }
+
+.Projects {
+  display: block;
+  border-right: dashed lightgrey 2px;
+  padding-right: 12px;
+  padding-bottom: 24px;
+}
+
+.ProjectDetails {
+  display: block;
+  margin-right: -14px;
+  padding-right: 10px;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  border-right: solid darkgrey 2px;
+}
+
 
 
 @media all and (min-width:0px) and (max-width: 800px) {
@@ -141,9 +158,17 @@ hr {
     color: black;
     font-weight: 600;  
     font-size: 16px;
-    margin-right: 5px;
+    margin-right: 10px;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .Projects {
+    border-right: none;
+  }
+
+  .ProjectDetails {
+    border-right: none;
   }
 
 }
