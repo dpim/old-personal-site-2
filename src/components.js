@@ -54,7 +54,7 @@ export class Description extends Component {
 
     render(){
         return (
-            <div ref="articleRef">
+            <div className="Article" ref="articleRef">
                 <div>
                     {parse(this.state.article ? this.state.article : "")}
                 </div>

@@ -10,7 +10,7 @@ class App extends Component {
     const helloArticle = () => (<Description articlePath="about.html" />);
     const projectsArticle = () => (<Description articlePath="projects.html" />);
     const contactArticle = () => (<Description articlePath="contact.html" />);
-    const pages = ["hello", "projects", "contact"];
+    const pages = ["about", "projects", "contact"];
     
     return (
       <div className="App">
@@ -22,6 +22,9 @@ class App extends Component {
             </div>
             <div className="Main">
               <Route exact path="/" render={() => (
+                  <Redirect to="/hello"/>
+              )}/>
+              <Route exact path="/about" render={() => (
                   <Redirect to="/hello"/>
               )}/>
               <Route exact path={"/hello"} render={helloArticle} />
