@@ -1,0 +1,19 @@
+{
+  "name": "dmitry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "markdown-loader": "^5.1.0",
+    "next": "9.3.1",
+    "raw-loader": "^4.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1"
+  }
+}
