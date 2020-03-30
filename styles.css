@@ -2,13 +2,13 @@ body, html {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -17,19 +17,19 @@ body, html {
     margin-right: 2rem;
     padding-top: 2rem;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .container, main {
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 
 main {
     padding: 1rem;
     flex: 1 1;
     flex-direction: column;
-    align-items: stretch
+    align-items: stretch;
 }
 
 footer {
@@ -37,55 +37,55 @@ footer {
     border-top: 1px solid #eaeaea;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 footer img {
-    margin-left: .5rem
+    margin-left: .5rem;
 }
 
 footer a {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 a {
-    color: inherit
+    color: inherit;
 }
 
 .title a, a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .title a {
-    color: #0070f3
+    color: #0070f3;
 }
 
 .title a:active, .title a:focus, .title a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 3rem
+    font-size: 3rem;
 }
 
 .description, .title {
-    text-align: left
+    text-align: left;
 }
 
 .description {
     line-height: 1.5;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .link-menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 .link-menu a {
@@ -101,7 +101,7 @@ a {
 
 .link-menu a:hover, a:active, a:focus {
     color: #0070f3;
-    border-color: #0070f3
+    border-color: #0070f3;
 }
 
 code {
@@ -109,7 +109,7 @@ code {
     border-radius: 5px;
     padding: .75rem;
     font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -117,11 +117,11 @@ code {
     columns: 600px;
     grid-column-gap: .75rem;
     -moz-column-gap: .75rem;
-    column-gap: .75rem
+    column-gap: .75rem;
 }
 
 .card, .grid {
-    display: inline-block
+    display: inline-block;
 }
 
 .card {
@@ -132,30 +132,30 @@ code {
     text-align: left;
     border: 1px solid #eaeaea;
     border-radius: 10px;
-    transition: color .5s ease
+    transition: color .5s ease;
 }
 
 .card img {
-    max-height: 400px
+    max-height: 400px;
 }
 
 .card h3 {
     margin: 0 0 1rem;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .card-body {
     margin: 0;
     font-size: 1.25rem;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .card-body a {
-    color: #0070f3
+    color: #0070f3;
 }
 
 .card-body a:hover, a:active, a:focus {
-    color: #0024f3
+    color: #0024f3;
 }
 
 iframe {
@@ -165,23 +165,23 @@ iframe {
 @media (max-width:600px) {
     .grid {
         width: 100%;
-        flex-flow: column nowrap
+        flex-flow: column nowrap;
     }
     .link-menu {
         flex-wrap: wrap;
-        max-width: 300px
+        max-width: 300px;
     }
     .link-menu a {
-        margin: .5em
+        margin: .5em;
     }
     .card {
-        max-width: 300px
+        max-width: 300px;
     }
     .card img {
-        max-width: 250px
+        max-width: 250px;
     }
     iframe {
         width: 100%;
-        height: 100%
+        height: 100%;
     }
 }
