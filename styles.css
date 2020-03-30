@@ -114,12 +114,10 @@ code {
 
 .grid {
     width: 85vw;
-    -moz-column-count: auto;
-    -moz-column-width: 700px;
-    columns: 700px;
-    grid-column-gap: .5rem;
-    -moz-column-gap: .5rem;
-    column-gap: .5rem
+    columns: 600px;
+    grid-column-gap: .75rem;
+    -moz-column-gap: .75rem;
+    column-gap: .75rem
 }
 
 .card, .grid {
@@ -128,7 +126,7 @@ code {
 
 .card {
     min-width: 300px;
-    max-width: 700px;
+    max-width: 600px;
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
@@ -138,7 +136,7 @@ code {
 }
 
 .card img {
-    max-height: 420px
+    max-height: 400px
 }
 
 .card h3 {
@@ -158,6 +156,10 @@ code {
 
 .card-body a:hover, a:active, a:focus {
     color: #0024f3
+}
+
+iframe {
+    max-width: 500px;
 }
 
 @media (max-width:600px) {
