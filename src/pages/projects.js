@@ -26,7 +26,8 @@ export async function getStaticProps() {
         "206",
         "wedge",
         "bottle",
-        "helio"
+        "helio",
+        "mpj"
     ];
 
     const projects = [];
