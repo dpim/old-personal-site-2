@@ -137,6 +137,7 @@ code {
 
 .card img {
     max-height: 400px;
+    max-width: 500px;
 }
 
 .card h3 {
