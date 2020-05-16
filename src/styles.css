@@ -1,8 +1,9 @@
-html, body {
+body, html {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     overflow-x: hidden;
+    font-size: small;
 }
 
 * {
@@ -16,18 +17,18 @@ html, body {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-top: 2rem;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
+}
+
+.container, main {
+    display: flex;
+    justify-content: flex-start;
 }
 
 main {
     padding: 1rem;
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: stretch;
 }
 
@@ -40,7 +41,7 @@ footer {
 }
 
 footer img {
-    margin-left: 0.5rem;
+    margin-left: .5rem;
 }
 
 footer a {
@@ -51,15 +52,17 @@ footer a {
 
 a {
     color: inherit;
+}
+
+.title a, a {
     text-decoration: none;
 }
 
 .title a {
     color: #0070f3;
-    text-decoration: none;
 }
 
-.title a:hover, .title a:focus, .title a:active {
+.title a:active, .title a:focus, .title a:hover {
     text-decoration: underline;
 }
 
@@ -69,7 +72,7 @@ a {
     font-size: 3rem;
 }
 
-.title, .description {
+.description, .title {
     text-align: left;
 }
 
@@ -82,21 +85,18 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .link-menu a {
     font-weight: 400;
-    margin-right: 1.25rem;
     font-size: 1.25rem;
-    color: black;
-    padding: 0.75rem;
-    border: 1px solid black;
-    border-radius: 10px;
     font-weight: 500;
+    margin-right: 1rem;
 }
 
-.link-menu a:hover, a:focus, a:active {
+.link-menu a:hover, a:active, a:focus {
     color: #0070f3;
     border-color: #0070f3;
 }
@@ -104,39 +104,64 @@ a {
 code {
     background: #fafafa;
     border-radius: 5px;
-    padding: 0.75rem;
+    padding: .75rem;
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
     width: 85vw;
+    columns: 600px;
+    grid-column-gap: .75rem;
+    -moz-column-gap: .75rem;
+    column-gap: .75rem;
+}
+
+.text-card {
+    background-color: clear;
+    margin: 1rem;
+}
+
+.text-card ul {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1.5rem;
+}
+
+.card, .grid, .text-card {
     display: inline-block;
-    column-count: auto;
-    column-width: 700px;
-    column-gap: 0.5rem;
 }
 
 .card {
-    display: inline-block;
     min-width: 300px;
-    max-width: 700px;
+    max-width: 600px;
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
-    border: 1px solid #eaeaea;
     border-radius: 10px;
-    transition: color 0.5s ease;
+    transition: color .5s ease;
+    background-color: #faf9f9;
+    border: 2px solid rgb(52, 50, 77);
 }
 
 .card img {
-    max-height: 420px;
+    max-height: 400px;
     max-width: 500px;
+    margin-left: 5px;
+}
+
+.card-media-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card h3 {
-    margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 .card-body {
@@ -149,36 +174,34 @@ code {
     color: #0070f3;
 }
 
-.card-body a:hover, a:focus, a:active {
+.card-body a:hover, a:active, a:focus {
     color: #0024f3;
 }
 
-@media (max-width: 600px) {
+iframe {
+    max-width: 500px;
+}
+
+@media (max-width:600px) {
     .grid {
         width: 100%;
         flex-flow: column nowrap;
     }
-
     .link-menu {
         flex-wrap: wrap;
         max-width: 300px;
     }
-
     .link-menu a {
-        margin: 0.5em;
+        margin: .5em;
     }
-
     .card {
         max-width: 300px;
     }
-
     .card img {
         max-width: 250px;
     }
-
     iframe {
         width: 100%;
-        height: 100%;  
+        height: 100%;
     }
-
 }
