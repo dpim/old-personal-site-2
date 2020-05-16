@@ -139,7 +139,7 @@ code {
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: color .5s ease;
     background-color: #eeeeee;
     /* border: 2px solid rgb(52, 50, 77); */
@@ -149,6 +149,7 @@ code {
     max-height: 400px;
     max-width: 500px;
     margin-left: 5px;
+    object-fit: contain; 
 }
 
 .card-media-container {
