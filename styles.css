@@ -139,10 +139,10 @@ code {
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: color .5s ease;
-    background-color: #faf9f9;
-    border: 2px solid rgb(52, 50, 77);
+    background-color: #eeeeee;
+    /* border: 2px solid rgb(52, 50, 77); */
 }
 
 .card img {
