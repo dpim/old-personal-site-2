@@ -1,6 +1,6 @@
 body, html {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     overflow-x: hidden;
     font-size: small;
@@ -108,8 +108,8 @@ code {
 }
 
 .grid {
-    width: 85vw;
-    columns: 600px;
+    width: auto;
+    columns: 550px;
     grid-column-gap: .75rem;
     -moz-column-gap: .75rem;
     column-gap: .75rem;
@@ -140,7 +140,7 @@ code {
     border-radius: 10px;
     transition: color .5s ease;
     background-color: #eeeeee;
-    /* border: 2px solid rgb(52, 50, 77); */
+    border: 2px solid #e0e0e0;
 }
 
 .card img {
