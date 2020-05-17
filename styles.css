@@ -146,7 +146,8 @@ code {
 .card img {
     max-height: 400px;
     max-width: 500px;
-    margin-left: 5px;
+    margin-left: 4px;
+    margin-bottom: 4px;
     object-fit: contain; 
 }
 

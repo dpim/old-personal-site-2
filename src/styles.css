@@ -83,10 +83,8 @@ a {
 
 .link-menu {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1.25rem; 
 }
 
 .link-menu a {
@@ -141,14 +139,16 @@ code {
     text-align: left;
     border-radius: 10px;
     transition: color .5s ease;
-    background-color: #faf9f9;
-    border: 2px solid rgb(52, 50, 77);
+    background-color: #eeeeee;
+    /* border: 2px solid rgb(52, 50, 77); */
 }
 
 .card img {
     max-height: 400px;
     max-width: 500px;
-    margin-left: 5px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    object-fit: contain; 
 }
 
 .card-media-container {
