@@ -155,6 +155,7 @@ code {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-height: 320px;
 }
 
 .card h3 {
