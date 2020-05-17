@@ -155,7 +155,6 @@ code {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    max-height: 320px;
 }
 
 .card h3 {
@@ -191,9 +190,6 @@ iframe {
     .link-menu {
         flex-wrap: wrap;
         max-width: 300px;
-    }
-    .card-media-container {
-        max-height: auto;
     }
     .card img {
         max-width: 250px;
