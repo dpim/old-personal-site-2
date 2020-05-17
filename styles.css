@@ -191,9 +191,6 @@ iframe {
         flex-wrap: wrap;
         max-width: 300px;
     }
-    .link-menu a {
-        margin: .5em;
-    }
     .card img {
         max-width: 250px;
     }
