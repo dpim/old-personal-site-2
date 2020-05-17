@@ -193,7 +193,7 @@ iframe {
         max-width: 300px;
     }
     .card-media-container {
-        max-height: auto;
+        max-height: none;
     }
     .card img {
         max-width: 250px;
