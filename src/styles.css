@@ -13,9 +13,10 @@ body, html {
 }
 
 .container {
+    max-width: 1600px;
     min-height: 100vh;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     padding-top: 2rem;
     flex-direction: column;
     align-items: flex-start;
@@ -109,10 +110,10 @@ code {
 
 .grid {
     width: auto;
-    columns: 550px;
-    grid-column-gap: .75rem;
-    -moz-column-gap: .75rem;
-    column-gap: .75rem;
+    columns: 520px;
+    grid-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
 }
 
 .text-card {
@@ -132,8 +133,7 @@ code {
 }
 
 .card {
-    min-width: 300px;
-    max-width: 600px;
+    width: 520px;
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
@@ -190,6 +190,11 @@ iframe {
     .link-menu {
         flex-wrap: wrap;
         max-width: 300px;
+    }
+    .card {
+        width: auto;
+        min-width: 300px;
+        max-width: 520px;
     }
     .card img {
         max-width: 250px;
