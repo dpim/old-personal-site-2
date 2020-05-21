@@ -108,10 +108,10 @@ code {
 }
 
 .grid {
-    max-width: 1250px;
+    max-width: 1160px;
     width: auto;
     column-count: 2;
-    column-width: min(47vw, 598px);
+    column-width: 558px;
     grid-column-gap: 0.75rem;
     -moz-column-gap: 0.75rem;
     column-gap: 0.75rem;
@@ -134,7 +134,7 @@ code {
 }
 
 .card {
-    width: min(48vw, 600px);
+    width: 560px;
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
@@ -185,6 +185,9 @@ iframe {
 }
 
 @media (max-width:600px){
+    .grid {
+        column-width: auto;
+    }
     .link-menu {
         flex-wrap: wrap;
         max-width: 300px;
@@ -210,12 +213,8 @@ iframe {
     .grid {
         flex-flow: column nowrap;
         column-count: 1;
-        column-width: 580px;
     }
 
-    .card {
-        width: 560px;
-    }
 }
 
 @media (min-width:1800px) {
