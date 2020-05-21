@@ -111,7 +111,7 @@ code {
     max-width: 1250px;
     width: auto;
     column-count: 2;
-    column-width: min(44vw, 598px);
+    column-width: min(47vw, 598px);
     grid-column-gap: 0.75rem;
     -moz-column-gap: 0.75rem;
     column-gap: 0.75rem;
@@ -134,7 +134,7 @@ code {
 }
 
 .card {
-    width: min(45vw, 600px);
+    width: min(48vw, 600px);
     margin: 1rem;
     padding: 1.1rem;
     text-align: left;
@@ -206,7 +206,7 @@ iframe {
     }
 }
 
-@media (max-width:1100px) {
+@media (max-width:1120px) {
     .grid {
         flex-flow: column nowrap;
         column-count: 1;
