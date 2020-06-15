@@ -48,10 +48,9 @@ const getTapiocaCard = (description) => (
         <h3 className="title">
             Tapioca - API Helpdesk
         </h3>
-        <iframe src="https://player.vimeo.com/video/321909326" 
-            width="600" height="360" frameBorder="0" 
-            webkitallowfullscreen="true" mozallowfullscreen="true" 
-            allowFullScreen={true}>
+        <iframe className="video" src="https://player.vimeo.com/video/321909326" 
+            width="560" height="360" frameborder="0" 
+            allow="autoplay; fullscreen" allowfullscreen>
         </iframe>
         <div> 
             <ReactMarkdown source={description} className="card-body"/>
