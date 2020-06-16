@@ -107,7 +107,10 @@ code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
+.grid, .card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     text-align: center;
     width: 100%;
 }
@@ -124,10 +127,8 @@ code {
     padding-left: 1.5rem;
 }
 
-.card, .grid, .text-card {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+.text-card {
+    display: inline-block;
 }
 
 .card {
