@@ -8,6 +8,16 @@ html {
   font-size: small;
 }
 
+body:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 150%;
+  height: 90px;
+  background-color: rgb(28, 24, 27);
+  border-bottom: 10px solid rgb(177, 177, 208);
+}
+
 * {
   /*! box-sizing: border-box; */
   -webkit-font-smoothing: antialiased;
@@ -83,18 +93,6 @@ a {
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.link-menu:before {
-  content: "";
-  left: -10px;
-  top: -10px;
-  position: absolute;
-  z-index: -1;
-  width: 150%;
-  height: 100px;
-  background-color: rgb(28, 24, 27);
-  border-bottom: 10px solid rgb(177, 177, 208);
 }
 
 .link-menu {
@@ -215,24 +213,8 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  .grid {
-    column-width: auto;
-    column-count: 1;
-  }
-
-  .link-menu a {
-    font-size: 16pt;
-    color: black;
-  }
-
-  .link-menu:before{
+  body:before {
     display: none;
-  }
-
-  .card {
-    width: auto;
-    min-width: 300px;
-    max-width: 510px;
   }
 
   .card img {
@@ -244,5 +226,21 @@ iframe {
     height: 100%;
     background-color: clear;
     border: none;
+  }
+
+  .grid {
+    column-width: auto;
+    column-count: 1;
+  }
+
+  .link-menu a {
+    font-size: 16pt;
+    color: black;
+  }
+
+  .card {
+    width: auto;
+    min-width: 300px;
+    max-width: 510px;
   }
 }
