@@ -132,8 +132,8 @@ code {
 }
 
 .text-card p {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .text-card > div {
@@ -205,9 +205,8 @@ a:focus {
 }
 
 iframe {
+  align-self: center;
   max-width: 600px;
-  background-color: rgb(28, 24, 27);
-  border: 8px rgb(255, 255, 255) solid;
 }
 
 @media (max-width: 600px) {
