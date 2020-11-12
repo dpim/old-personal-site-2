@@ -1,4 +1,9 @@
-I'm an engineer, product thinker and futurist. Professionally, I've worked on building large-scale developer platforms, productivity software and blockchain applications.
+I'm a product thinker, engineer and tinkerer. Professionally, I've worked on building large-scale developer platforms, productivity software and blockchain applications.
 At the same time, I've built a few [developer tools and social networks](/projects) of my own.
 
-I love crafting new products, working through thorny problems and all the learning that comes along the way. 
+Currently, I'm most interested in:
+
+- Building and scaling platforms
+- Workflow automation and productivity
+- Simplifying payments and money movement
+- Creating the next wave of social products 
