@@ -1,21 +1,12 @@
 body,
 html {
+  vertical-align: baseline;
   padding: 0px;
   margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x: hidden;
   font-size: small;
-}
-
-body:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 150%;
-  height: 90px;
-  background-color: rgb(28, 24, 27);
-  border-bottom: 10px solid rgb(177, 177, 208);
 }
 
 * {
@@ -39,7 +30,6 @@ main {
 main {
   width: 100%;
   flex-direction: column;
-  align-items: stretch;
 }
 
 footer {
@@ -80,13 +70,13 @@ a {
 }
 
 .title {
-  margin: 0rem 0rem 1rem 0rem;
-  line-height: 1;
-  font-size: 30pt;
+  margin: 2rem;
+  line-height: 4rem;
+  font-size: 36pt;
+  text-align: center;
 }
 
-.description,
-.title {
+.description {
   text-align: left;
 }
 
@@ -96,8 +86,8 @@ a {
 }
 
 .link-menu {
-  height: 110px;
-  color: rgb(255, 255, 255);
+  color: rgb(79, 79, 79);
+  height: 75px;
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -127,15 +117,23 @@ code {
 }
 
 .grid {
-  margin-top: 1rem;
+  margin: auto auto 1rem auto;
+  max-width: max(100%, 650px);
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  justify-content: center;
 }
 
 .text-card {
-  background-color: clear;
+  padding: 1rem;
   max-width: 650px;
+  margin-bottom: 1rem;
+  justify-self: center;
+}
+
+.text-card p {
+    display: block;
+    width: 100%;
 }
 
 .text-card > div {
@@ -156,7 +154,7 @@ code {
   flex-direction: column;
   align-content: left;
   width: 600px;
-  margin: 0.5rem 1rem 0.5rem 0rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
   padding: 1rem;
   text-align: left;
   border-radius: 10px;
@@ -213,10 +211,6 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  body:before {
-    display: none;
-  }
-
   .card img {
     max-width: 250px;
   }
@@ -226,6 +220,10 @@ iframe {
     height: 100%;
     background-color: clear;
     border: none;
+  }
+
+  .text-card {
+    width: auto;
   }
 
   .grid {
