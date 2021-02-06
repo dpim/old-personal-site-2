@@ -1,8 +1,11 @@
 # Dependency directory
 node_modules
+src/node_modules
+src/.next
 
 # Source maps
 *.js.map
 
 # Files marked with gitigx
 *gitigx*
+
